@@ -1,0 +1,10 @@
+services: {}
+
+volumes:
+  app-data: {}
+  db-data: {}
+  nim-cache: {}
+
+networks:
+  devx:
+    driver: bridge
